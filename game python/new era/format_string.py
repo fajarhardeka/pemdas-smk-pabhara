@@ -1,10 +1,11 @@
-nama = "Fajar Hardeka"
-alamat = "Kebondalem"
-kabupaten = "Banjarnegara"
+#FORMAT STRING
+nama = "nur fikri sobirin" #DIGANTI NAMA KALIAN
+alamat = "adipasir badog" #DIGANTI ALAMAT KALIAN
+kabupaten = "Polewalimandar" #DIGANTI KABUPATEN KALIAN (BEBAS)
 
-lengkap = f"Halo saya {nama} {alamat} {kabupaten}"
+xtkj1 = f"Halo saya {nama} {alamat} {kabupaten}"
 
-print(lengkap)
+print(xtkj1)
 
 # penjelasan dari kode di atas adalah, jika kita akan menghasilkan output 
 # berupa nama alamat dan kabupaten tidak perlu menulis ulang, tinggal dipanggil saja variablenya..

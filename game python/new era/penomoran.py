@@ -1,8 +1,15 @@
-print(99) # ini adalah angka
+# versi 1
+panjang = 10
+lebar = 5
 
-print(9.9) # ini adalah angka
+keliling = 2 * panjang + lebar
 
-print("99") # ini adalah text
+print(keliling)
 
-# tidak akan bisa menggunakan kondisi asli, seperti ini print(99a) ini akan eror, harus dipisah menjadi string,
-# seperti ini print("99a")
+# versi 2
+panjang = 10
+lebar = 5
+
+keliling = 2 * 10 + 5
+
+print(keliling)

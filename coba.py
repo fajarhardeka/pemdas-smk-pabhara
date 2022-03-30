@@ -1,10 +1,19 @@
+z = 900
+x = 3340
+print(z*x)
 
-penambahan = 1000 + 9360
-pengurangan = 1240 - 501
-campur =  210 * 230 - 99 / 2
-pembagian = 65 / 2
+z = 400
+x = 2349
+y = 200
+print(z*x/y)
 
-print("1000 + 9360 =", penambahan)
-print("1240 - 501 =", pengurangan)
-print("210 * 230 - 99 / 2", campur)
-print("65 / 2=", pembagian)
+z = 210
+x = 230
+y = 99
+print(z*x-y)
+
+a = 210
+b = 230
+c = 99
+d = 2
+print(a*b-c/d)
