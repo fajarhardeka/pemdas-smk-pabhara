@@ -1,30 +1,31 @@
 # implementasi percabangan pada python
 # NAMA = ???
 # KELAS = ???
-#penghitungan sederhana
-print(20*"=")
-print("penghitungan sederhana")
-print(20*"=" + "\n")
+# penghitungan sederhana berupa kalkulator
+print(15*"-")
+print("PENGHITUNGAN SEDERHANA MBANGET")
+print(15*"-")
 
-angka1 = float(input("masukan angka ke 1 ="))
-operasi = input("+,-,x,/ = ")
-angka2 = float(input("masukan angka ke 2 ="))
+angka1 = float(input("Masukan angka pertama = "))
+operasi = input("pilih operasinya +, -, x, / = ")
+angka2 = float(input("Masukan angka kedua = "))
 
-#percabangannya
+# membuat percabangan untuk logika kalkulator
 
 if operasi == "+":
 	hasil = angka1 + angka2
-	print(f"hasilnya adalah {hasil}")
+	print(f"hasilnya adalah = {hasil}") 
 elif operasi == "-":
 	hasil = angka1 - angka2
-	print(f"hasilnya adalah {hasil}")
+	print(f"hasilnya adalah = {hasil}")
 elif operasi == "x" or operasi == "*":
 	hasil = angka1 * angka2
-	print(f"hasilnya adalah {hasil}")
+	print(f"hasilnya adalah = {hasil}")
 elif operasi == "/":
 	hasil = angka1 / angka2
-	print(f"hasilnya adalah {hasil}")
-else:
-	print("masukan yang bener dong la brooo")
+	print(f"hasilnya adalah = {hasil}")
 
-print("Akhir dari program, penghitunngan sederhana!")
+else:
+	print("Sing mandan memper mbokan!!!")
+
+print("Akhir dari program sederhana, terimakasih")
