@@ -1,5 +1,5 @@
-print("Fajar Hardeka / Guru Produktif") #DIGANTI DENGAN NAMA DAN KELAS KALIAN
-print("Kalkulator sederhana mbanget\n")
+print("Fajar Hardeka / Guru Produktif TJKT") #DIGANTI DENGAN NAMA DAN KELAS KALIAN
+print("Kalkulator sederhana pol polan\n")
 print("1. Perkalian")
 print("2. Pertambahan")
 print("3. Pemgurangan")
